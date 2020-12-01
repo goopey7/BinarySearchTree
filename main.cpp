@@ -8,5 +8,7 @@ int main()
 	tree.insert(30);
 	tree.insert(10);
 	std::cout << tree.toString() << std::endl;
+	tree.remove(20);
+    std::cout << tree.toString() << std::endl;
 	return 0;
 }

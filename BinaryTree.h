@@ -10,11 +10,15 @@
 
 class BinaryTree
 {
-	Node* root= nullptr;
-	Node* insertRecursive(Node* root, int key);
+	Node* root=nullptr;
+	Node* insertRecursive(Node* rootNode, int key);
+    Node* search(Node* rootNode, int key);
+    Node* removeRecursive(Node* rootNode, int key);
+    int minimumValue(Node* rootNode);
 public:
 	void insert(int key);
-	Node* search(Node* root,int key);
+	Node* search(int key);
+	Node* remove(int key);
 	std::string toString(){return root->toString();}
 };
 

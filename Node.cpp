@@ -5,6 +5,7 @@
 #include <iostream>
 #include "Node.h"
 
+// this is just for debugging. TODO: print tree diagram function
 std::string Node::toString()
 {
 	int rightKey=-1;
